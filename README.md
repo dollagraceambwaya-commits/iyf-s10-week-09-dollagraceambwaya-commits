@@ -1,16 +1,49 @@
-# React + Vite
+# Week 09: React Advanced 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Author
+- **Name:** Dolla Grace Ambwaya  
+- **GitHub:** [@dollagraceambwaya-commits](https://github.com/dollagraceambwaya-commits)  
+- **Date:** May 12, 2026  
 
-Currently, two official plugins are available:
+## Project Description
+This project demonstrates advanced React concepts such as component composition, props handling, and state management.  
+The **SkillSync Hub** app connects people through skills, learning, and opportunities — showcasing posts, categories, and quick links using dynamic React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React 18 + Vite  
+- JavaScript (ES6+)  
+- JSX & Component Composition  
+- Tailwind CSS (for styling)  
+- GitHub Pages (for deployment)
 
-## React Compiler
+## Features
+- Modular React components (Header, Footer, About, Posts)  
+- Dynamic rendering of lists and categories  
+- Reusable button and layout components  
+- Responsive design using Tailwind utilities  
+- Clean project structure and professional README
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Challenges Faced
+- Tailwind CLI not resolving on Windows PowerShell  
+- Missing `cli.js` file during installation  
+- PostCSS configuration errors preventing style compilation  
+- Resolved by manual config creation and verifying imports in `main.jsx`
 
-## Expanding the ESLint configuration
+## Lessons Learned
+- Advanced React patterns improve scalability and maintainability  
+- Proper PostCSS setup is essential for Tailwind integration  
+- Debugging build pipelines requires patience and systematic testing  
+- Minimal Tailwind directives (`@tailwind base; @tailwind components; @tailwind utilities;`) are sufficient for compilation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+1. Clone the repository  
+   git clone https://github.com/dollagraceambwaya-commits/iyf-s10-week-09-dollagraceambwaya-commits.git
+   
+3. Navigate into the project folder
+cd iyf-s10-week-09-dollagraceambwaya-commits
+
+3. Install dependencies
+npm install
+
+5. Start the development server
+npm run dev
